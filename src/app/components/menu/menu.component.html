@@ -1,0 +1,26 @@
+<div class="container">
+  <ul class="list">
+    <li class="el">
+      <a
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Главная</a
+      >
+    </li>
+    <li class="el">
+      <a routerLink="one" routerLinkActive="active-link">1 страница</a>
+    </li>
+    <li class="el">
+      <a routerLink="second" routerLinkActive="active-link">2 страница</a>
+    </li>
+    <li class="el">
+      <a routerLink="/owner/list" routerLinkActive="active-link"
+        >Ленивая загрузка</a
+      >
+    </li>
+    <li class="el">
+      <a routerLink="sing" routerLinkActive="active-link">Вход</a>
+    </li>
+  </ul>
+</div>
